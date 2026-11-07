@@ -1,21 +1,36 @@
 # Lunar Regolith Transport Rover for Habitat Shielding Support
 
-Independent Aerospace Conceptual Design Project | Summer 2026  
-Omkar Shende
+**Conceptual lunar rover that hauls regolith to build radiation shielding for a lunar habitat.**
+Independent aerospace design / research project, Summer 2026 — Rutgers University,
+advised by Dr. Haym Benaroya. Second NJSGC award, Spring 2027, continues this project
+(wiring setup, circuit diagram, and mechatronics).
 
-## Project Summary
+![Rover CAD render](images/rover-cad.png)
+![LC5 FEA result](images/rover-fea.png)
 
-This project developed a conceptual lunar regolith transport rover to support habitat radiation-shielding construction. The rover is designed to transport externally excavated loose regolith from a prepared stockpile/loading area to a habitat-side unloading zone. It does not excavate; its role is repeated transport and dumping.
+## What it does
 
-The final concept includes a six-wheel rocker-bogie mobility system, rear-hinged dual-actuator dump bed, fixed forward electronics deck, conceptual battery system, route and energy model, hand structural calculations, and preliminary finite-element analysis.
+The rover carries externally excavated loose regolith from a prepared stockpile to a
+habitat-side unloading zone, then dumps it — repeated trips, so the habitat crew can build
+up radiation shielding. It transports and dumps; it does not excavate.
 
-## Key Results
+## What I did
 
-| Metric | Final Conceptual Value |
-|---|---:|
+- Full-assembly CAD in SolidWorks: six-wheel rocker-bogie mobility system, rear-hinged
+  dual-actuator dump bed, fixed forward electronics deck
+- Payload and sizing trade that set the 340 kg regolith payload and 0.315 m3 bed
+- Mobility, wheel-torque, power, and motor analysis, plus a route and energy model
+  (500 m one-way baseline, 180 trips, 196.2 km campaign)
+- Hand structural calculations and preliminary FEA on 6061-T6 structural parts
+- Electronics, communications, sensors, lighting, and harness integration
+
+## Key results
+
+| Metric | Final conceptual value |
+| --- | --- |
 | Payload | 340 kg regolith |
 | Dry / loaded mass | ~650 kg / ~990 kg |
-| Bed volume | 0.315 m³ |
+| Bed volume | 0.315 m3 |
 | Suspension | Six-wheel rocker-bogie |
 | Wheel diameter | 0.50 m |
 | Route baseline | 500 m one-way |
@@ -26,6 +41,16 @@ The final concept includes a six-wheel rocker-bogie mobility system, rear-hinged
 | Trips per charge | 5.93 theoretical, plan 5 |
 | Governing FEA case | LC5 asymmetric terrain support |
 | Governing FEA result | 5.338 MPa, 0.1415 mm displacement, FOS 51.52 |
+
+## Full report
+
+[Lunar_Regolith_Transport_Rover_Final_Report_RUTGERS_ADVISOR_FINAL.pdf](Lunar_Regolith_Transport_Rover_Final_Report_RUTGERS_ADVISOR_FINAL.pdf)
+
+## Status
+
+Preliminary conceptual design and analysis — complete as an undergraduate design/research
+project. Not flight-qualified hardware; it would need detailed structural, thermal,
+electrical, RF, environmental, and test engineering before any build or flight use.
 
 ## Project Files
 
